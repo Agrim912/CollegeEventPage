@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title></title>
+  </head>
+  <style>
+      p#footer{
+          position: absolute;
+          bottom: 0px;
+          width: 100%;
+      }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li><img src="images/RBYXJj44_400x400.png" width="30px" style="border-radius: 50%;" alt=""></li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Academics
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="UGprog.html">UG Programs</a></li>
+                  <li><a class="dropdown-item" href="PGprog.html">PG Programs</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Yoga And Meditation</a></li> -->
+    
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Campus Life
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Center for Performing Arts</a></li>
+                  <li><a class="dropdown-item" href="#">Sports And Fitness</a></li>
+                  <li><a class="dropdown-item" href="#">Yoga And Meditation</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+    
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div _ngcontent-serverapp-c53="" class="content">
+        <router-outlet _ngcontent-serverapp-c53=""></router-outlet>
+        <app-contactpage _nghost-serverapp-c31="">
+            <!---->
+            <div _ngcontent-serverapp-c31="" class="main-container container my-4">
+                <div _ngcontent-serverapp-c31="" class="row">
+                    <div _ngcontent-serverapp-c31="" class="col-lg-12">
+                        <h2 _ngcontent-serverapp-c31="">Register Your Slot</h2>
+                        <form _ngcontent-serverapp-c31="" novalidate="" class="ng-untouched ng-pristine ng-invalid">
+                            <div _ngcontent-serverapp-c31="" class="form-group"><label _ngcontent-serverapp-c31=""
+                                    for="name">Your Name</label><input _ngcontent-serverapp-c31="" type="name" id="name"
+                                    placeholder="Enter your Name" required="" name="name" ngmodel=""
+                                    class="form-control ng-untouched ng-pristine ng-invalid"></div>
+                            <div _ngcontent-serverapp-c31="" class="form-group"><label _ngcontent-serverapp-c31=""
+                                    for="email">Your Email</label><input _ngcontent-serverapp-c31="" type="email"
+                                    id="email" placeholder="Enter your Email" required="" name="email" ngmodel=""
+                                    class="form-control ng-untouched ng-pristine ng-invalid"></div>
+                            <div _ngcontent-serverapp-c31="" class="form-group"><label _ngcontent-serverapp-c31=""
+                                    for="phone">Your Phone Number</label><input _ngcontent-serverapp-c31=""
+                                    type="number" id="phone" placeholder="Enter your Phone Number" minlength="10"
+                                    maxlength="10" required="" name="phone" ngmodel=""
+                                    class="form-control ng-untouched ng-pristine ng-invalid"></div>
+                            <div _ngcontent-serverapp-c31="" class="form-group"><label _ngcontent-serverapp-c31=""
+                                    for="description">Have any doubt?? </label><textarea
+                                    _ngcontent-serverapp-c31="" type="text" id="message" placeholder="Your message"
+                                    required="" name="message" ngmodel=""
+                                    class="form-control ng-untouched ng-pristine ng-invalid"></textarea></div><button
+                                _ngcontent-serverapp-c31="" type="submit" class="btn btn-danger mt-2" disabled="">
+                                <!----> Submit
+                            </button>
+                        </form>
+                    </div>
+                    <hr _ngcontent-serverapp-c31="">
+                </div>
+            </div>
+        </app-contactpage>
+        <!---->
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    
+    <p id="footer" style="background-color: rgb(244, 245, 236);"> <img src="images/RBYXJj44_400x400.png" style="border-radius: 50%; width: 50px; " alt=""> 2017–2021 Company, Inc. · <a href="Contact.html">Contact Us</a> · <a href="about.html">About Us   </a> </p>
+</body>
+</html>
